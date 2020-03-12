@@ -13,6 +13,7 @@ tags:
 
 # mysql 5.6 原生Online DDL解析
 
+
 做MySQL的都知道，数据库操作里面，DDL操作（比如CREATE,DROP,ALTER等）代价是非常高的，特别是在单表上千万的情况下，加个索引或改个列类型，就有可能堵塞整个表的读写。
 
 然后 mysql 5.6 开始，大家期待的Online DDL出现了，可以实现修改表结构的同时，依然允许DML操作(select,insert,update,delete)。在这个特性出现以前，用的比较多的工具是`pt-online-schema-change`，比较请参考[pt-online-schema-change使用说明、限制与比较](http://seanlook.com/2016/05/27/mysql-pt-online-schema-change)或 [ONLINE DDL VS PT-ONLINE-SCHEMA-CHANGE](http://www.fromdual.ch/online-ddl_vs_pt-online-schema-change) 。
