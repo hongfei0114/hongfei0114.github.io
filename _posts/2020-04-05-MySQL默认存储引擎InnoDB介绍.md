@@ -89,7 +89,9 @@ rollback;
 - 根据表逻辑主键排序
 - 数据节点每页16k - 数据页
 
-![image-20200331235026058](/Users/wph/Library/Application Support/typora-user-images/image-20200331235026058.png)
+![](https://tva1.sinaimg.cn/large/00831rSTly1gdkluif5b2j31au0o0tp7.jpg)
+
+
 
 
 
