@@ -24,7 +24,7 @@ MySQL从5.5版本开始将InnoDB作为默认存储引擎，该存储引擎是第
 
 - ACID事务特性支持，包括commit，rollback以及crash恢复的能力
 - 行级锁以及多版本控制MVCC
-- 利用逐渐的聚簇索引(clustered index)在底层存储数据，以提升对主键查询的IO性能
+- 利用主键的聚簇索引(clustered index)在底层存储数据，以提升对主键查询的IO性能
 - 支持外键功能，管理数据的完整性
 
 
